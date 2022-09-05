@@ -1,7 +1,21 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Fringilla.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="redCoefficient" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">0.3</Value>
+    </Setting>
+    <Setting Name="greenCoefficient" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">0.59</Value>
+    </Setting>
+    <Setting Name="blueCoefficient" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">0.11</Value>
+    </Setting>
+    <Setting Name="filterLength" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">11</Value>
+    </Setting>
+    <Setting Name="filterLoops" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">250</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

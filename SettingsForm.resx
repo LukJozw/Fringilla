@@ -117,23 +117,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="linkedInProfile-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\linkedInProfile-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="myphoto" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\myphoto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="exitButton-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\exitButton-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rgProfile-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rgProfile-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mailTo-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mailTo-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="triColor-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\triColor-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAA/wFfbOk7YWzpdGFr6oNhbelnY2vmH1jX7yBX0vBnWNTvg1jT8HRW1O47AP//AQAA
+        AAAAAAAAAAAAAGZm7g9ga+mYYGzpzGBs6cxgbOnMYGzpzF2a6t9Yye7fWNPvzFjT78xY0+/MWNPvzFjT
+        8Jdb2+0OAAAAAAAA/wFha+iZYGzpzGBs6cxgbOnMYGzpzFyT6t1Ywu31WMLt9VjL7t1Y0+/MWNPvzFjT
+        78xY0+/MWNPwlwD//wFiauo8YGzpzGBs6cxgbOnMYGzpzGBv6c1ave3yWMLt9VjC7fVZw+7yV9LvzVjT
+        78xY0+/MWNPvzFjT78xW1O47X2zndmBs6cxgbOnMYGzpzGBs6cxegurWWMLt9VjC7fVYwu31WMLt9VjO
+        7tZY0+/MWNPvzFjT78xY0+/MWNPwdGBs6YJgbOnMYGzpzGBs6cxgbOnMXYrr2FnC7PZawuz3WsLs91rD
+        7fVZze7YWNPvzFjT78xY0+/MWNPvzFjU74JgbOloYGzpzGBs6cxgbOnMYmznzmqB2+ldwej9XcLo/V3C
+        6P1dwej9Zcze6VnS7s5Y0+/MWNPvzFjT78xY1fBmXWzoIWBr6MpgbOnMYWznzXF00ux1ds31YbLj/F3C
+        6P1dwuj9YcPl+23M0vVqzdfsWNPuzVjT78xX0+/KWNfvIAAAAABibOlmYGzpzGtx2eB1ds31dXbN9W+E
+        0/devej9XsLn/WvK1/ZtzNL1bczS9WPQ4N9Y0+/MWNLuZgAAAAAAAAAAAAAAAF9r51Z4d8rqdXbN9XV2
+        zfV1ds31fYu/8HnBxPBtzNL1bczS9W3M0vVwys/pV9LtVQAAAAAAAAAAAAAAAAAAAAAAAAAA2qRIx8CZ
+        aNa4lXPZyZxf092mQszdpkLMxq5h07azdNm/r2rW2qhIxwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN2m
+        QrrdpkLM3aZCzN2mQszdpkLM3aZCzN2mQszdpkLM3aZCzN6mQ7gAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADdpUKA3aZCzN2mQszdpkLM3aZCzN2mQszdpkLM3aZCzN2mQszdp0J/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA3Kc+Hd2mQsLdpkLM3aZCzN2mQszdpkLM3aZCzN2mQszdpkLB26RAHAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADbo0Iy3qdCut2mQszdpkLM3aZCzN2mQszep0K626NCMgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAOiiRgvepUJV3adCf92nQn/epUJV6KJGCwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAwAMAAIABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAAwAMAAOAHAADgBwAA4AcAAOAH
+        AADwDwAA+B8AAA==
+</value>
   </data>
 </root>
