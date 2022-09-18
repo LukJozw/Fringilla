@@ -93,6 +93,16 @@ namespace Fringilla.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mainPictureBox_bckImage_256 {
+            get {
+                object obj = ResourceManager.GetObject("mainPictureBox_bckImage-256", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap myphoto {
             get {
                 object obj = ResourceManager.GetObject("myphoto", resourceCulture);

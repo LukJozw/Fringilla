@@ -25,6 +25,8 @@ namespace Fringilla
             blueUpDown.Value = Properties.Settings.Default.blueCoefficient;
             vectLegthUpDown.Value = Properties.Settings.Default.filterLength;
             loopsUpDown.Value = Properties.Settings.Default.filterLoops;
+            polyUpDown.Value = Fringilla.Properties.Settings.Default.wavePoly;
+            monoUpDown.Value = Fringilla.Properties.Settings.Default.waveMono;
         }
 
         private void redUpDown_ValueChanged(object sender, EventArgs e)
@@ -75,6 +77,70 @@ namespace Fringilla
         private void loopsUpDown_ValueChanged(object sender, EventArgs e)
         {
             Properties.Settings.Default.filterLoops = (int)loopsUpDown.Value;
+        }
+        private void polyUpDown_ValueChanged(object sender, EventArgs e)
+        {
+            Fringilla.Properties.Settings.Default.wavePoly = polyUpDown.Value;
+        }
+
+        private void monoUpDown_ValueChanged(object sender, EventArgs e)
+        {
+            Fringilla.Properties.Settings.Default.waveMono = monoUpDown.Value;
+        }
+
+        private void btnColorRed_Click(object sender, EventArgs e)
+        {
+            redUpDown.Value = 1.00M;
+            greenUpDown.Value = 0.00M;
+            blueUpDown.Value = 0.00M;
+        }
+
+        private void btnWlenRed_Click(object sender, EventArgs e)
+        {
+            monoUpDown.Value = 650;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            monoUpDown.Value = 534;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            polyUpDown.Value = 540;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            monoUpDown.Value = 594;
+        }
+
+        private void btnBitmap_Click(object sender, EventArgs e)
+        {
+            FolderBrowserDialog diag = new FolderBrowserDialog();
+            if(diag.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                textBoxBitmap.Text = diag.SelectedPath;
+                Fringilla.Properties.Settings.Default.dirBitmap = diag.SelectedPath;
+            }
+            else
+            {
+                textBoxBitmap.Text = "";
+            }
+        }
+
+        private void btnReports_Click(object sender, EventArgs e)
+        {
+            FolderBrowserDialog diag = new FolderBrowserDialog();
+            if (diag.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                textBoxReports.Text = diag.SelectedPath;
+                Fringilla.Properties.Settings.Default.dirReport = diag.SelectedPath;
+            }
+            else
+            {
+                textBoxBitmap.Text = "";
+            }
         }
     }
 }

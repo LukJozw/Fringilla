@@ -61,7 +61,7 @@ namespace Fringilla.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("11")]
+        [global::System.Configuration.DefaultSettingValueAttribute("7")]
         public int filterLength {
             get {
                 return ((int)(this["filterLength"]));
@@ -73,13 +73,289 @@ namespace Fringilla.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("250")]
+        [global::System.Configuration.DefaultSettingValueAttribute("60")]
         public int filterLoops {
             get {
                 return ((int)(this["filterLoops"]));
             }
             set {
                 this["filterLoops"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool fBmpColor {
+            get {
+                return ((bool)(this["fBmpColor"]));
+            }
+            set {
+                this["fBmpColor"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public float xFactor {
+            get {
+                return ((float)(this["xFactor"]));
+            }
+            set {
+                this["xFactor"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public float yFactor {
+            get {
+                return ((float)(this["yFactor"]));
+            }
+            set {
+                this["yFactor"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool fLoadBMP {
+            get {
+                return ((bool)(this["fLoadBMP"]));
+            }
+            set {
+                this["fLoadBMP"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool fBckgData {
+            get {
+                return ((bool)(this["fBckgData"]));
+            }
+            set {
+                this["fBckgData"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool fFilmData {
+            get {
+                return ((bool)(this["fFilmData"]));
+            }
+            set {
+                this["fFilmData"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("560")]
+        public decimal waveMono {
+            get {
+                return ((decimal)(this["waveMono"]));
+            }
+            set {
+                this["waveMono"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("552")]
+        public decimal wavePoly {
+            get {
+                return ((decimal)(this["wavePoly"]));
+            }
+            set {
+                this["wavePoly"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public int noZeroBckg {
+            get {
+                return ((int)(this["noZeroBckg"]));
+            }
+            set {
+                this["noZeroBckg"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public int noZeroFilm {
+            get {
+                return ((int)(this["noZeroFilm"]));
+            }
+            set {
+                this["noZeroFilm"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0, 0")]
+        public global::System.Drawing.Point pointLineBckg {
+            get {
+                return ((global::System.Drawing.Point)(this["pointLineBckg"]));
+            }
+            set {
+                this["pointLineBckg"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0, 0")]
+        public global::System.Drawing.Point pontLineFilm {
+            get {
+                return ((global::System.Drawing.Point)(this["pontLineFilm"]));
+            }
+            set {
+                this["pontLineFilm"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int lineLenghtBckg {
+            get {
+                return ((int)(this["lineLenghtBckg"]));
+            }
+            set {
+                this["lineLenghtBckg"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int lineLengthFilm {
+            get {
+                return ((int)(this["lineLengthFilm"]));
+            }
+            set {
+                this["lineLengthFilm"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int noDistBckg {
+            get {
+                return ((int)(this["noDistBckg"]));
+            }
+            set {
+                this["noDistBckg"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int noDistFilm {
+            get {
+                return ((int)(this["noDistFilm"]));
+            }
+            set {
+                this["noDistFilm"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool fDistBckg {
+            get {
+                return ((bool)(this["fDistBckg"]));
+            }
+            set {
+                this["fDistBckg"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool fDistFilm {
+            get {
+                return ((bool)(this["fDistFilm"]));
+            }
+            set {
+                this["fDistFilm"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool fDraw {
+            get {
+                return ((bool)(this["fDraw"]));
+            }
+            set {
+                this["fDraw"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool flagOrder {
+            get {
+                return ((bool)(this["flagOrder"]));
+            }
+            set {
+                this["flagOrder"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool flagDistance {
+            get {
+                return ((bool)(this["flagDistance"]));
+            }
+            set {
+                this["flagDistance"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string dirBitmap {
+            get {
+                return ((string)(this["dirBitmap"]));
+            }
+            set {
+                this["dirBitmap"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string dirReport {
+            get {
+                return ((string)(this["dirReport"]));
+            }
+            set {
+                this["dirReport"] = value;
             }
         }
     }
